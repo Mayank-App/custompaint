@@ -1,16 +1,20 @@
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
+ import 'package:flutter/cupertino.dart';
+ import 'package:flutter/material.dart';
 
-class CustomPaintPractice1 extends StatefulWidget{
+ class CustomPaintPractice1 extends StatefulWidget{
   const CustomPaintPractice1({super.key});
 
   @override
   State<CustomPaintPractice1> createState() => _CustomPaintPractice1State();
+
 }
 
 class _CustomPaintPractice1State extends State<CustomPaintPractice1> {
+
   @override
+
   Widget build(BuildContext context) {
+
     return Scaffold(
          body: Container(
            child:  CustomPaint(
