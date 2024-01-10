@@ -1,3 +1,5 @@
+import 'package:custompaint_assignment/view/cleeper.dart';
+import 'package:custompaint_assignment/view/cleeperPractice2.dart';
 import 'package:custompaint_assignment/view/customPaintPractice1.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const CustomPaintPractice1(),
+      home:  CleeperPractice2(),
     );
   }
 }
