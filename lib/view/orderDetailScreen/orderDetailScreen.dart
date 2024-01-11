@@ -1,9 +1,10 @@
 import 'package:custompaint_assignment/utils/appColor.dart';
 import 'package:custompaint_assignment/utils/appString.dart';
-import 'package:custompaint_assignment/view/HomeScreen/customWidget/deliverPartner.dart';
-import 'package:custompaint_assignment/view/HomeScreen/customWidget/draggleImage.dart';
-import 'package:custompaint_assignment/view/HomeScreen/customWidget/tellUsMoreCard.dart';
 import 'package:flutter/material.dart';
+
+import 'customWidget/deliverPartner.dart';
+import 'customWidget/draggleImage.dart';
+import 'customWidget/tellUsMoreCard.dart';
 class OrderDetailScreen extends StatefulWidget{
   const OrderDetailScreen({super.key});
 

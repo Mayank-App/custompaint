@@ -1,8 +1,9 @@
 import 'package:custompaint_assignment/utils/routes/routes_name.dart';
-import 'package:custompaint_assignment/view/HomeScreen/orderDetailScreen.dart';
 import 'package:custompaint_assignment/view/homeScreen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import '../../view/orderDetailScreen/orderDetailScreen.dart';
 class Routes {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
