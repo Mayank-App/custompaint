@@ -25,7 +25,13 @@ class _HomeScreenState extends State<HomeScreen> {
             Navigator.pushNamed(context, RoutesName.orderDetailScreen);
 
                 },
-                child: Text(AppString.homeScreenText,style: TextStyle(color: AppColor.black),))
+                child: Text(AppString.homeScreenText,style: TextStyle(color: AppColor.black),)),
+            ElevatedButton(
+                onPressed: (){
+                  Navigator.pushNamed(context, RoutesName.customPaintTaskScreen);
+
+                },
+                child: Text("CustomPaintTask",style: TextStyle(color: AppColor.black),))
           ],
         ),
       ),

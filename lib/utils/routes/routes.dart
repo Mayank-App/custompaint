@@ -1,4 +1,5 @@
 import 'package:custompaint_assignment/utils/routes/routes_name.dart';
+import 'package:custompaint_assignment/view/customPaintTask.dart';
 import 'package:custompaint_assignment/view/homeScreen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -13,6 +14,9 @@ class Routes {
       case RoutesName.orderDetailScreen:
         return MaterialPageRoute(
             builder: (BuildContext context) => OrderDetailScreen());
+      case RoutesName.customPaintTaskScreen:
+        return MaterialPageRoute(
+            builder: (BuildContext context) => CustomPaintTask());
       default:
         return MaterialPageRoute(builder: (_) {
           return Scaffold(

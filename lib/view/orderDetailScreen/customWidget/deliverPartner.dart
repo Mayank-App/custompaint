@@ -4,7 +4,8 @@ import '../../../utils/appColor.dart';
 import '../../../utils/appString.dart';
 
 class DeliverPartner extends StatelessWidget{
-  const DeliverPartner({super.key});
+  GlobalKey ?iconKey;
+  DeliverPartner({super.key,this.iconKey});
 
   @override
   Widget build(BuildContext context) {
@@ -12,6 +13,7 @@ class DeliverPartner extends StatelessWidget{
      crossAxisAlignment: CrossAxisAlignment.start,
      children: [
        Container(
+         key:  iconKey,
          height: 54,
          width: 54,
          decoration: BoxDecoration(
