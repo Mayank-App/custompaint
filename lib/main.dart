@@ -1,6 +1,5 @@
-import 'package:custompaint_assignment/view/cleeper.dart';
-import 'package:custompaint_assignment/view/cleeperPractice2.dart';
-import 'package:custompaint_assignment/view/customPaintPractice1.dart';
+import 'package:custompaint_assignment/utils/routes/routes.dart';
+import 'package:custompaint_assignment/utils/routes/routes_name.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +18,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  CleeperPractice2(),
+        initialRoute: RoutesName.homeScreen,
+        onGenerateRoute: Routes.generateRoute
     );
   }
 }
